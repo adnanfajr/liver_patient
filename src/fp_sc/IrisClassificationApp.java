@@ -70,7 +70,7 @@ public class IrisClassificationApp {
 		// sepal-width  = 3.1
 		// petal-length = 4.8
 		// petal-width  = 1.5
-		double[] input = { 38,1,1.8,0.8,342,168,441,7.6,4.4,1.3 };
+		double[] input = { 63,1,0.9,0.2,194,52,45,6,3.9,1.85 };
 		
 		// Before inputting into the model, don't forget to normalize the input
 		double[] normalizedInput = new double[input.length];

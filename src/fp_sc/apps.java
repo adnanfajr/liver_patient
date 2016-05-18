@@ -106,6 +106,7 @@ public class apps extends javax.swing.JFrame {
 		// petal-length = 4.8
 		// petal-width  = 1.5
 		double[] input = { txAge,txSx,txTb,txDb,txAp,txAm,txAa,txTp,txAl,txRa };
+                //double[] input = { 72,1,2.7,1.3,260,31,56,7.4,3,0.6,1 };
 		
 		// Before inputting into the model, don't forget to normalize the input
 		double[] normalizedInput = new double[input.length];

@@ -41,7 +41,7 @@ public class IrisClassificationExample2 {
 		// Let's set the names of the variables and target output
 		// This step is not obligatory; you're free to omit it
 		dataSet.setColumnNames(new String[] { "age", "gender", "total_bilirubin", "direct_bilirubin", "alkaline_phosphotase", "alamine_aminotransferase", "astarpate_aminotransferase", "total_proteins", "albumin", "ratio_albumin" });
-		dataSet.setLabel("liver patient");
+		dataSet.setLabel("liver_patient");
 		
 		// A Java 8 idiom for reading data
 		// You could also use BufferedReader
@@ -265,7 +265,7 @@ public class IrisClassificationExample2 {
 		// Let's set the names of the variables and target output
 		// This step is not obligatory; you're free to omit it
 		dataSet.setColumnNames(new String[] { "age", "gender", "total_bilirubin", "direct_bilirubin", "alkaline_phosphotase", "alamine_aminotransferase", "astarpate_aminotransferase", "total_proteins", "albumin", "ratio_albumin" });
-		dataSet.setLabel("liver patient");
+		dataSet.setLabel("liver_patient");
 	}
 	
 	public static void testAccuracy(MultiLayerPerceptron neuralNet, DataSet testSet) {
